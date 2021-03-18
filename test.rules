@@ -1,0 +1,1 @@
+alert tcp any any -> any 8080 (msg:"TEST ALERT"; flags:A; content:"I am IDS Homework I"; distance:100; within:100; sid:1000017;)
